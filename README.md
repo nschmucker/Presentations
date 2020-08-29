@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## The Analyst Code presentations repository
 
-You can use the [editor on GitHub](https://github.com/nschmucker/Presentations/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The links below will take you to online slide presentations used to accompany YouTube videos or website posts (or both!). Presentations are created using reveal.js. For more information about how to create presentations like these and share them online, check out this [reveal.js tutorial](https://github.com/nschmucker/Presentations). Everything here is open source, meaning you can take a look to see how I created it! The raw source material is all on my public [GitHub repository](https://github.com/nschmucker/Presentations).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Visit my [YouTube channel](https://github.com/nschmucker/Presentations) for instructional videos.
 
-### Markdown
+Browse my [website](https://github.com/nschmucker/Presentations) for information on The Analyst Code’s foundational principles and for instruction on data analysis using R.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### The Core Principles
 
-```markdown
-Syntax highlighted code block
+**[The Principles of Analytics](https://github.com/nschmucker/Presentations).** Coming soon.
+**[The Principles of Workflow](https://github.com/nschmucker/Presentations).** Coming soon.
+**[The Principles of Code](https://github.com/nschmucker/Presentations).** Coming soon. (YouTube, article, presentation, GitHub)
 
-# Header 1
-## Header 2
-### Header 3
+### Additional presentations
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nschmucker/Presentations/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**[reveal.js and GitHub Pages](https://github.com/nschmucker/Presentations).** Learn just enough JavaScript to create and share presentations online. No previous JavaScript or GitHub experience needed. Coming soon.
