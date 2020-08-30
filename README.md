@@ -1,6 +1,6 @@
 ## The Analyst Code presentations repository
 
-The links below will take you to online slide presentations used to accompany YouTube videos or website posts (or both!). Presentations are created using reveal.js. For more information about how to create presentations like these and share them online, check out this [reveal.js tutorial](https://github.com/nschmucker/Presentations). Everything here is open source, meaning you can take a look to see how I created it! The raw source material is all on my public [GitHub repository](https://github.com/nschmucker/Presentations).
+The links below will take you to online slide presentations used to accompany YouTube videos or website posts (or both!). For more information about how to create presentations like these and share them online, check out this beginners’ [reveal.js tutorial](https://github.com/nschmucker/Presentations). Everything here is open source, meaning you can take a look to see how I created it! The raw source material is all on my public [GitHub repository](https://github.com/nschmucker/Presentations).
 
 Visit my [YouTube channel](https://github.com/nschmucker/Presentations) for instructional videos.
 
@@ -9,7 +9,9 @@ Browse my [website](https://github.com/nschmucker/Presentations) for information
 ### The Core Principles
 
 **[The Principles of Analytics](https://github.com/nschmucker/Presentations).** Coming soon.
+
 **[The Principles of Workflow](https://github.com/nschmucker/Presentations).** Coming soon.
+
 **[The Principles of Code](https://github.com/nschmucker/Presentations).** Coming soon. (YouTube, article, presentation, GitHub)
 
 ### Additional presentations
