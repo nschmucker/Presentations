@@ -13,50 +13,80 @@
 // ---------------------------------------------
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #fff;
 
-$mainColor: #17222b;
-$headingColor: #17222b;
+// My colors
+$deepSaffronS3: #331e0a;
+$deepSaffronS2: #663d14;
+$deepSaffronS1: #b26b23;
+$deepSaffron:   #ff9933;
+$deepSaffronT1: #ffc184;
+$deepSaffronT2: #ffead6;
 
-$mainFontSize: 42px;
+$icebergS3: #17222b;
+$icebergS2: #2e4457;
+$icebergS1: #517699;
+$iceberg:   #75aadb;
+$icebergT1: #accce9;
+$icebergT2: #e3eef7;
+
+// Background of the presentation (changed to image below)
+$backgroundColor: $icebergT2;
+
+// Primary/body text
 $mainFont: Helvetica, sans-serif;
+$mainFontSize: 42px;
+$mainColor: $icebergS3;
+
+// Headings
 $headingFont: Helvetica, sans-serif;
-$headingTextShadow: none;
-$headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingColor: $icebergS3;
+$headingTextTransform: none;
 $headingFontWeight: 600;
-$linkColor: #75aadb;
-$linkColorHover: #accc39;
-$selectionBackgroundColor: #517699;
 
 $heading1Size: 2.5em;
 $heading2Size: 1.6em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
+// Code font
+$codeFont: 'Lucida Consolas', monospace;
+
+// Links and actions
+$linkColor: $iceberg;
+$linkColorHover: $icebergS1;
+
+//Text selection
+$selectionBackgroundColor: $icebergT1;
+$selectionColor: $mainColor;
+
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
-		color: #e3eef7;
+		color: $icebergT2;
 	}
 }
 
-//.reveal .slides section {
-//  text-align: left;  
-//}
-//
-//.reveal .slides section > section {
-//  text-align: left;
-//}
+@mixin bodyBackground() {
+	background-image: url('../../img/OrangeOnBlue.png');
+	background-size: cover;
+}
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
 
-.slide-background {
-	background-image:url('../../img/OrangeOnBlue.png');
-	background-size:cover;
-}
+// Overwrite items loaded in "../template/theme"
 
 .reveal blockquote {
 	background: rgba(23, 34, 43, 0.05);
+}
+
+.title {
+	text-align: left;
+	color: $deepSaffron;
+}
+
+.title h3 {
+	text-align: left;
+	font-family: $codeFont;
+	color: $deepSaffronS2;
 }
