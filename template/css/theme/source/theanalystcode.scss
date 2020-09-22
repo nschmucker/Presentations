@@ -2,6 +2,8 @@
  * White theme for reveal.js. This is the opposite of the 'black' theme.
  *
  * By Hakim El Hattab, http://hakim.se
+ *
+ * Theme edited by Nathaniel Schmucker
  */
 
 
@@ -10,27 +12,22 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-
-// Include theme-specific fonts
-@import url(fonts/source-sans-pro/source-sans-pro.css);
-
-
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #fff;
 
-$mainColor: #222;
-$headingColor: #222;
+$mainColor: #17222b;
+$headingColor: #17222b;
 
 $mainFontSize: 42px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: Helvetica, sans-serif;
+$headingFont: Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
 $headingFontWeight: 600;
-$linkColor: #2a76dd;
-$linkColorHover: lighten( $linkColor, 15% );
-$selectionBackgroundColor: lighten( $linkColor, 25% );
+$linkColor: #75aadb;
+$linkColorHover: #accc39;
+$selectionBackgroundColor: #517699;
 
 $heading1Size: 2.5em;
 $heading2Size: 1.6em;
@@ -39,11 +36,27 @@ $heading4Size: 1.0em;
 
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: #e3eef7;
 	}
 }
 
+//.reveal .slides section {
+//  text-align: left;  
+//}
+//
+//.reveal .slides section > section {
+//  text-align: left;
+//}
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.slide-background {
+	background-image:url('../../img/OrangeOnBlue.png');
+	background-size:cover;
+}
+
+.reveal blockquote {
+	background: rgba(23, 34, 43, 0.05);
+}
