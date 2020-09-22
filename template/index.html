@@ -16,7 +16,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/theanalystcode.css" id="theme">
 		<link rel="stylesheet" href="plugin/highlight/zenburn.css" id="highlight-theme">
 	</head>
 
@@ -25,6 +25,7 @@
 		<div class="reveal">
 
 			<div class="slides">
+				<!-- <section data-state="title"> -->
 				<section>
 					<a href="https://www.github.com/nschmucker/presentations">
 						<img src="https://raw.githubusercontent.com/nschmucker/Presentations/master/assets/img/logo.png" alt="The Analyst Code" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;">
@@ -42,9 +43,9 @@
 					</p>
 				</section>
 
-				<section data-background="https://static.slid.es/reveal/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code class="hljs html">&lt;section data-background="image.png"&gt;</code></pre>
+				<section data-background="https://raw.githubusercontent.com/nschmucker/Presentations/master/assets/img/OrangeOnBlue.png">
+					<h2>Image Backgrounds</h2>
+					<pre><code class="hljs html">&lt;section data-background="image.png"&gt;</code></pre>
 				</section>
 
 				<section>
@@ -287,6 +288,7 @@
 				controlsTutorial: false,
 				progress: false,
 				center: false,
+				backgroundTransition: 'none',
 				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
 			});
 
