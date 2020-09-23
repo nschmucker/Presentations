@@ -34,7 +34,6 @@ $backgroundColor: $icebergT2;
 
 // Primary/body text
 $mainFont: Helvetica, sans-serif;
-$mainFontSize: 42px;
 $mainColor: $icebergS3;
 
 // Headings
@@ -80,13 +79,78 @@ section.has-dark-background {
 	background: rgba(23, 34, 43, 0.05);
 }
 
+// Create a 'title' class to format title pages
+
 .title {
 	text-align: left;
 	color: $deepSaffron;
 }
 
-.title h3 {
-	text-align: left;
+.title ::selection {
+	color: $deepSaffron;
+}
+
+.title ::-moz-selection {
+	color: $deepSaffron;
+}
+
+.title h1,
+.title h2,
+.title h3, {
 	font-family: $codeFont;
+	color: $deepSaffronS2;
+}
+
+.title h4,
+.title h5,
+.title h6, {
+	color: $deepSaffronS2;
+}
+
+.title h1::selection {
+	color: $deepSaffronS2;
+}
+
+.title h1::-moz-selection {
+	color: $deepSaffronS2;
+}
+
+.title h2::selection {
+	color: $deepSaffronS2;
+}
+
+.title h2::-moz-selection {
+	color: $deepSaffronS2;
+}
+
+.title h3::selection {
+	color: $deepSaffronS2;
+}
+
+.title h3::-moz-selection {
+	color: $deepSaffronS2;
+}
+
+.title h4::selection {
+	color: $deepSaffronS2;
+}
+
+.title h4::-moz-selection {
+	color: $deepSaffronS2;
+}
+
+.title h5::selection {
+	color: $deepSaffronS2;
+}
+
+.title h5::-moz-selection {
+	color: $deepSaffronS2;
+}
+
+.title h6::selection {
+	color: $deepSaffronS2;
+}
+
+.title h6::-moz-selection {
 	color: $deepSaffronS2;
 }

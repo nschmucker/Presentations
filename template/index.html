@@ -26,245 +26,287 @@
 
 			<div class="slides">
 				<section class="title">
-				<!-- <section> -->
 					<a href="https://www.github.com/nschmucker/presentations">
-						<img src="img/logo.png" alt="The Analyst Code" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;">
+						<img src="img/logo.png" alt="The Analyst Code logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;">
 					</a>
-					<h3>Title</h3>
-					<p>
-						<small>Created by <a href="https://www.github.com/nschmucker">Nathaniel Schmucker</a></small>
-					</p>
+					<h2>Title</h2>
+					<p><small>
+						Created by <a href="https://github.com/nschmucker">Nathaniel Schmucker</a>
+						<br><a href="https://www.google.com">Website</a> | <a href="https://www.youtube.com">YouTube</a> | <a href="https://github.com/nschmucker/">GitHub</a>
+						<br>More presentations: <a href="https://nschmucker.github.io/Presentations/">nschmucker.github.io/Presentations</a>
+					</small></p>
 				</section>
 
 				<section>
 					<h2>Header</h2>
-					<p>
-						This is some text.
-					</p>
+					<p>This is some text.</p>
 				</section>
 
 				<section>
 					<section>
 						<h2>Top-level slide in section of vertical slides</h2>
-						<p>This is some text.</p>
+						<p>Down arrow for details.</p>
 					</section>
+
 					<section>
 						<h2>Basement level 1</h2>
 						<p>This is some text.</p>
 					</section>
+
 					<section>
 						<h2>Basement level 2</h2>
 						<p>This is some text.</p>
 					</section>
 				</section>
 
-				<section data-auto-animate>
-					<h2 data-id="id-name-1">Pretty Code</h2>
-					<pre data-id="id-name-"2><code class="r" data-trim data-line-numbers>
-						library(tidyverse)
-						
-						center <- function(x, type, ...) {
-						  switch(type,
-						         mean = mean(x),
-						         median = median(x),
-						         trimmed = mean(x, trim = 0.1)
-						  )
-						}
-					</code></pre>
-					<p>[TBU] This is some text.</p>
-				</section>
+				<section>
+					<section>
+						<h2>Formatting tips</h2>
+						<p>Down arrow for details.</p>
+					</section>
 
-				<section data-auto-animate>
-					<h2 data-id="id-name-1">With animations</h2>
-					<pre data-id="id-name-2"><code class="r" data-trim data-line-numbers="|1,3|5-7">
-						library(tidyverse)
-						
-						center <- function(x, type, ...) {
-						  switch(type,
-						         mean = mean(x, na.rm = TRUE),
-						         median = median(x, na.rm = TRUE),
-						         trimmed = mean(x, trim = 0.1, na.rm = TRUE)
-						  )
-						}
-					</code></pre>
+					<section>
+						<h2>Unordered, ordered, and nested lists</h2>
+						<ul>
+							<li>No order here</li>
+							<li>Or here
+								<ol>
+									<li>But here...</li>
+									<li>...there is.</li>
+									<li>Wow.</li>
+								</ol>
+							</li>
+							<li>Or here</li>
+							<li>Or here</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Tables</h2>
+						<table>
+							<thead>
+								<tr>
+									<th>Item</th>
+									<th>Value</th>
+									<th>Quantity</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Apples</td>
+									<td>$1</td>
+									<td>7</td>
+								</tr>
+								<tr>
+									<td>Lemonade</td>
+									<td>$2</td>
+									<td>18</td>
+								</tr>
+								<tr>
+									<td>Bread</td>
+									<td>$3</td>
+									<td>2</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+
+					<section>
+						<h2>Clever Quotes</h2>
+						<p>
+							These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">The nice thing about standards is that there are so many to choose from</q> and block:
+						</p>
+						<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+							&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
+							reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
+						</blockquote>
+					</section>
 				</section>
 
 				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down <strong>alt</strong> and click on any element to zoom in/out.
-					</p>
-				</section>
+					<section>
+						<h2>Animation</h2>
+						<p>Down arrow for details.</p>
+					</section>
 
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<h2>Auto-Animate</h2>
-					<p>Automatically animate matching elements across slides with <a href="https://revealjs.com/auto-animate/">Auto-Animate</a>.</p>
-					<div class="r-hstack justify-center">
-						<div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-						<div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-						<div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-					</div>
-				</section>
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<div class="r-hstack justify-center">
-						<div data-id="box1" data-auto-animate-delay="0.0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"></div>
-						<div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"></div>
-						<div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"></div>
-					</div>
-					<h2 style="margin-top: 20px;">Auto-Animate</h2>
-				</section>
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<div class="r-stack">
-						<div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"></div>
-						<div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"></div>
-						<div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"></div>
-					</div>
-					<h2 style="margin-top: 20px;">Auto-Animate</h2>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://revealjs.com/markdown/).
-					</script>
-				</section>
-
-				<section>
 					<section id="fragments">
 						<h2>Fragments</h2>
 						<p>Hit the next arrow...</p>
 						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+						<p><span class="fragment">... a fragmented</span> <span class="fragment">slide.</span></p>
 					</section>
+
 					<section>
 						<h2>Fragment Styles</h2>
 						<p>There's different types of fragments, like:</p>
 						<p class="fragment grow">grow,</p>
+						<p class="fragment fade-in-then-semi-out">fade-in-then-semi-out</p>
 						<p>
-							<span style="display: inline-block;" class="fragment fade-up">fade-up, </span>
-							<span style="display: inline-block;" class="fragment fade-down">fade-down, </span>
+							<span style="display: inline-block;" class="fragment fade-up">fade-up,</span>
+							<span style="display: inline-block;" class="fragment fade-down">or fade-down</span>
 						</p>
-						<p class="fragment fade-in-then-semi-out">or fade-in-then-semi-out</p>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="id-name-1">Pretty Code</h2>
+						<pre data-id="id-name-2"><code class="r" data-trim data-line-numbers>
+							library(tidyverse)
+							
+							center <- function(x, type, ...) {
+							  switch(type,
+							         mean = mean(x),
+							         median = median(x),
+							         trimmed = mean(x, trim = 0.1)
+							  )
+							}
+						</code></pre>
+						<p>This is some text.</p>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="id-name-1">With animations</h2>
+						<pre data-id="id-name-2"><code class="r" data-trim data-line-numbers="|1,3|5-7">
+							library(tidyverse)
+							
+							center <- function(x, type, ...) {
+							  switch(type,
+							         mean = mean(x, na.rm = TRUE),
+							         median = median(x, na.rm = TRUE),
+							         trimmed = mean(x, trim = 0.1, na.rm = TRUE)
+							  )
+							}
+						</code></pre>
+					</section>
+
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+						<h2>Auto-Animate</h2>
+						<p>Automatically animate matching elements across slides with <a href="https://revealjs.com/auto-animate/">Auto-Animate</a>.</p>
+						<div class="r-hstack justify-center">
+							<div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+							<div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+							<div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						</div>
+					</section>
+
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+						<div class="r-hstack justify-center">
+							<div data-id="box1" data-auto-animate-delay="0.0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"></div>
+							<div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"></div>
+							<div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"></div>
+						</div>
+						<h2 style="margin-top: 20px;">Auto-Animate</h2>
+					</section>
+
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+						<div class="r-stack">
+							<div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"></div>
+							<div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"></div>
+							<div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"></div>
+						</div>
+						<h2 style="margin-top: 20px;">Auto-Animate</h2>
 					</section>
 				</section>
 
 				<section>
-					<h2>Transition Styles</h2>
-					<p>You can select from different transitions, like <strong>None</strong> or <strong>Slide</strong></p>
+					<section>
+						<h2>Transitions</h2>
+						<p>Down arrow for details.</p>
+					</section>
+
+					<section data-transition="none">
+						<h2>Transition Styles</h2>
+						<p>You can select from different transitions, like <strong>none</strong> or <strong>slide</strong></p>
+						<pre><code class="hljs html">&lt;section data-transition="none"&gt;</code></pre>
+					</section>
+
+					<section data-background="#000" data-background-transition="zoom">
+						<h2>Background Transitions</h2>
+						<p>
+							Different background transitions are available via the backgroundTransition option. This one's called "zoom".
+						</p>
+						<pre><code class="hljs javascript">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+						<p>
+							Or you can set background transitions per-slide.
+						</p>
+						<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+					</section>
+
+					<section data-background="img/OrangeOnBlue.png" data-background-transition="slide">
+						<h2>Background Transitions</h2>
+						<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-transition="slide"&gt;</code></pre>
+					</section>
+
+					<section data-transition="slide" data-background="#000" data-background-transition="none">
+						<h2>Mix and match</h2>
+						<ul>
+							<li>Data transitions: slide, none</li>
+							<li>Background transitions: fade, slide, zoom, none</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
+					<section>
+						<h2>Backgrounds</h2>
+						<p>The custom CSS loads in an image background.</p>
+						<p>Down arrow for details.</p>
+					</section>
+
 					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
+						<h2>Color Backgrounds</h2>
 						<pre><code class="hljs html">&lt;section data-background="#dddddd"&gt;</code></pre>
 					</section>
-					<section data-background="https://static.slid.es/reveal/image-placeholder.png">
+
+					<section data-background="http://placekitten.com/1920/1080">
 						<h2>Image Backgrounds</h2>
 						<pre><code class="hljs html">&lt;section data-background="image.png"&gt;</code></pre>
 					</section>
+
 					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4" data-background-color="#000000">
 						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
 							<h2>Video Backgrounds</h2>
 							<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4"&gt;</code></pre>
 						</div>
 					</section>
-				</section>
 
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code class="hljs javascript">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section data-background-iframe="https://hakim.se" data-background-interactive>
-					<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-						<h2>Iframe Backgrounds</h2>
-						<p>Since reveal.js runs on the web, you can easily embed other web content. Try interacting with the page in the background.</p>
-					</div>
+					<section data-background-iframe="https://hakim.se" data-background-interactive>
+						<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+							<h2>Iframe Backgrounds</h2>
+							<p>Since reveal.js runs on the web, you can easily embed other web content. Try interacting with the page in the background.</p>
+						</div>
+					</section>
 				</section>
 
 				<section>
-					<h2>Unordered List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
+					<section>
+						<h2>Presentation tools</h2>
+						<p>Press B or . on your keyboard to pause the presentation.</p>
+						<p>Down arrow for details.</p>
+					</section>
 
-				<section>
-					<h2>Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
+					<section>
+						<h2>Point of View</h2>
+						<p>
+							Press <strong>ESC</strong> to enter the slide overview.
+						</p>
+						<p>
+							Hold down <strong>alt</strong> and click on any element to zoom in/out.
+						</p>
+					</section>
 
-				<section>
-					<h2>Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
+					<section>
+						<h2>Speaker View</h2>
+						<p>There's a speaker view. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
+						<p>Press the <em>S</em> key to try it out.</p>
 
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">The nice thing about standards is that there are so many to choose from</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a speaker view. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+						<aside class="notes">
+							Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						</aside>
+					</section>
 				</section>
 
 			</div>
+
 		</div>
 
 		<script src="dist/reveal.js"></script>
@@ -283,10 +325,11 @@
 				controlsTutorial: false,
 				progress: false,
 				center: false,
-				backgroundTransition: 'none',
 				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
 			});
 
 		</script>
+
 	</body>
+
 </html>
