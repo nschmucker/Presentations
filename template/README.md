@@ -21,6 +21,17 @@ The full reveal.js documentation is available at [revealjs.com](https://revealjs
 ## Online Editor
 Want to create your presentation using a visual editor? Try the official reveal.js presentation platform for free at [Slides.com](https://slides.com). It's made by the same people behind reveal.js.
 
+## Notes from Nathaniel
+This template is based on reveal.js v4.0.2. 
+
+The files I have *modified* to create the template are `index.html` and this `README.md`. 
+
+The files I have *added* are images in the `img` directory and a new `.scss` file, `css/theme/source/theanalystcode.scss`. Running `npm run build -- css-themes` from the `Template` directory created the new `.css` file, which `index.html` uses (`dist/theme/theanalystcode.css`).
+
+The files I have *deleted* for the sake of keeping this template as clean as possible are (1) all themes distributed with reveal.js (`css/theme/source/XXX.scss`), (2) associated `.css` files (`dist/theme/XXX.css`), and (3) fonts distributed with reveal.js (`dist/theme/fonts/XXX`).
+
+To create a new presentation, copy the contents of this template into a new directory under Presentations and navigate to that folder (`cd folder`), `npm install` (unless dependencies are copied over; dependencies placed in my `.gitignore` file), and `npm start`.
+
 ## License
 
 MIT licensed
